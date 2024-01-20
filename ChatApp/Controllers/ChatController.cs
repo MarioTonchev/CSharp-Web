@@ -24,7 +24,7 @@ namespace ChatApp.Controllers
                     MessageText = m.Value
                 }).ToList()
             };
-
+            
             return View(chatModel);
         }
 
